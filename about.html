@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="image/home1.jpg" width="30" height="25"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Men<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Topwear</a></li>
+              <li><a href="#">Bottomwear</a></li>
+              <li><a href="#">Indian and festive wear</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Women <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Indian and Fusion Wear</a></li>
+              <li><a href="#">Footwear</a></li>
+              <li><a href="#">Westerwear</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Kids<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Indian and Fusion Wear</a></li>
+              <li><a href="#">Footwear</a></li>
+              <li><a href="#">Westerwear</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          <li><a href="#">About Us</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="image/about_1.jpg">
+        </div>
+
+        <div class="item">
+          <img src="image/about_2.jpg">
+        </div>
+
+        <div class="item">
+          <img src="image/about_3.jpg">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+      </div>
+    </div>
+    <!-- tabbable-->
+    <div class="container" id="tabs">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="tabbable">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab1" data-toggle="tab">Web Shop</a></li>
+              <li><a href="#tab2" data-toggle="tab">History</a> </li>
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1">
+                <h4><span class="glyphicon glyphicon-map-marker"></span> Our Location</h4>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15556.743544428797!2d77.6364187!3d12.895765749999999!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1480307973580" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p>Webshop is an Indian fashion e-commerce marketplace company headquartered in Bengaluru, Karnataka, India. The company was founded in 2007 by Indian Institute of Technology graduates with a focus on personalisation of gift items. By 2010,
+                  Myntra shifted its focus to the online retailing of branded apparel. In May 2014, webshop.com merged with Flipkart to compete against Amazon which entered the Indian market in June 2013 and other established offline retailers like Future
+                  Group, Aditya Birla Group and Reliance Retail</p>
+              </div>
+              <!-- end tab-pane-->
+              <div class="tab-pane" id="tab2">
+                <p>Established by Mukesh Bansal along with Ashutosh Lawania and Vineet Saxena, Myntra was in the business of on-demand personalisation of gift items. It mainly operated on the B2B (business-to-business) model during its initial years. Between
+                  2007 and 2010, the online portal allowed customers to personalize products such as T-shirts, mugs, mouse pads, calendars, watches, teddy bears, pendants, wine glasses and jigsaw puzzles.[10] In 2011, Myntra expanded its catalogue to
+                  include fashion and lifestyle products and moved away from personalisation. Myntra tied up with various popular brands to retail a wide range of latest merchandise from these brands. Myntra offered products from 350 Indian and International
+                  brands by 2012. Myntra also had casual wear for men and women from brands. The website saw the launch of Fastrack watches and of Being Human, the brand</p>
+              </div>
+            </div>
+            <!-- end tab-content -->
+
+          </div>
+          <!-- end tabbable-->
+        </div>
+        <div class="col-sm-6">
+          <div class="list-group">
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Why Choose Us.Because we are Reliable</h4>
+              <p class="list-group-item-text">
+
+                Shopping is fun and exhilarating and more so when you can shop 24x7 without leaving the comfort of home. This in simpler words is what we call Jabong.com! Online shopping at Jabong.com is convenient and affordable. You can find your desired products more
+                quickly and easily using our user-friendly online shopping platform. Fill your cart up to the brim in just a few seconds and get swift home delivery for all orders.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">Our Mission.To Redefine your Brand.</h4>
+              <p class="list-group-item-text">‘Fashion’ is definitely more accessible with Jabong.com. We showcase the chicest of products be it clothing, footwear, jewellery, accessories and cosmetics. Explore the latest collections of top brands like United Colors of Benetton, Arrow,
+                Esprit, French Connection, Adidas, Reebok, Nike, Clarks, Burberry, Calvin Klein and many others.</p>
+            </a>
+            <a href="#" class="list-group-item">
+              <h4 class="list-group-item-heading">What we Do.Make our Customers Happy.</h4>
+              <p class="list-group-item-text">You choose your product, order it online, and we deliver it right at your doorstep anywhere in India. You just need to pay for the product, while we ensure free shipping* all the time on almost everything with no strings attached. For any
+                second thoughts after purchase, we have in place a no questions asked return policy as well.</p>
+            </a>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+    <!-- end container-->
+
+    <!-- footer-->
+    <footer>
+      <div class="container">
+        <div class="row" id="app">
+          <div class="col-sm-2">
+            <h6><b>Online Shopping</b></h6>
+
+            <a href="#online">Men</a>
+            <br>
+            <a href="#online">Women</a>
+            <br>
+            <a href="#online">Kids</a>
+            <br>
+            <a href="#online">Home Decor</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p> Have Issues ?<a href="#contact">Contact Us</a></p>
+          </div>
+          <div class="col-sm-2">
+            <h6><b>Useful links</b></h6>
+
+            <a href="#online">Contact Us</a>
+            <br>
+            <a href="#online">FAOs</a>
+            <br>
+            <a href="#online">T&C</a>
+            <br>
+            <a href="#online">Shipping</a>
+            <br>
+            <a href="#online">Cancellation</a>
+            <br>
+            <a href="#online">Returns</a>
+            <br>
+          </div>
+          <div class="col-sm-4">
+            <h6><b>EXPERIENCE WEBSHOP ON MOBILE</b></h6>
+            <img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge-border.png" height="45" />
+            <img src="http://designpieces.com/wp-content/uploads/2016/02/download-on-the-app-store.png" height="40" />
+
+            <p> (OR)</p>
+            <p>Give a missed call to 1800-419-3500 and get link to download Webshop app </p>
+            <hr>
+            <img src="image/norton.png"></img>
+            <img src="image/rupay.jpg"></img>
+            <img src="image/visa.png"></img>
+          </div>
+          <div class="col-sm-4">
+            <img src="image/original.jpg" height="50" width="50" align="left"><b><p>100% ORIGINAL</b> gurantee for all products at webshop.com</p>
+            </img>
+            <br>
+            <img src="image/return.png" height="45" width="50" align="left"><b><p>Return within 30days</b> of placing your order</p>
+            </img>
+            <br>
+            <img src="image/delivery.jpg" height="50" width="50" align="left"><b><p>Get free delivery</b> for every order above Rs. 999</p>
+            </img>
+            <br>
+            <br>
+
+            <p>Follow us on :</p>
+            <a href="https://www.facebook.com/"> <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>&nbsp
+
+            <i class="fa fa-google-plus-official fa-2x" aria-hidden="true"></i>&nbsp
+
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>&nbsp
+
+
+          </div>
+
+
+        </div>
+        <!-- end row-->
+      </div>
+      <!-- end container-->
+
+    </footer>
+</body>
+
+</html>
